@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: hsl(210, 46%, 95%);
+}
+
+.main-container {
+  width: 720px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.aside-content {
+  display: flex;
+}
+.drawers-container img {
+  width: 280px;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.main-content {
+  padding: 40px;
+}
+
+.main-content .h2-div {
+  font-size: 15px;
+  margin-bottom: 18px;
+  color: hsl(217, 19%, 35%);
+}
+
+.main-content .main-text-div {
+  font-size: 12px;
+  margin-bottom: 18px;
+}
+
+.main-content .main-text-div h4 {
+  color: hsl(212, 23%, 69%);
+  font-size: 13.2px;
+}
+
+.profile-div {
+  display: flex;
+  align-items: center;
+}
+
+.profile-div .avatar-div img {
+  width: 40px;
+  border-radius: 50px;
+}
+
+.profile-div .name-div h4 {
+  font-size: 13px;
+}
+
+.profile-div .name-div {
+  margin-left: 25px;
+}
+
+.profile-div .name-div h4 {
+  color: hsl(217, 19%, 35%);
+  font-weight: 800;
+}
+
+.profile-div .name-div h5 {
+  font-size: 12px;
+}
+
+.profile-div .share-div {
+  margin-left: 35%;
+  background-color: hsl(216, 67%, 90%);
+  padding: 8px;
+  border-radius: 50px;
+  border: 2.5px solid black;
+}
+
+.profile-div .share-div img {
+  width: 20px;
+}
+
+.profile-div .share-div:hover {
+  cursor: pointer;
+  background-color: aliceblue;
+}
+
