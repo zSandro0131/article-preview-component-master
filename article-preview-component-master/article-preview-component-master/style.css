@@ -50,9 +50,13 @@ body {
   font-size: 13.2px;
 }
 
-.profile-div {
+.profile-div, .profile {
   display: flex;
   align-items: center;
+}
+
+.profile-div {
+  justify-content: space-between;
 }
 
 .profile-div .avatar-div img {
@@ -78,8 +82,8 @@ body {
 }
 
 .profile-div .share-div {
-  margin-left: 35%;
   background-color: hsl(216, 67%, 90%);
+  position: relative;
   padding: 8px;
   border-radius: 50px;
   border: 2.5px solid black;
@@ -96,10 +100,11 @@ body {
 
 .modal {
   position: absolute;
+  top: -200%;
+  left: 50%;
+  transform: translateX(-50%);
   background-color: hsl(217, 19%, 35%);
   color: white;
-  left: 61.5%;
-  top: 48.8%;
   padding: 20px;
   display: flex;
   width: 250px;
@@ -109,12 +114,12 @@ body {
 
 .modal-triangle {
   position: absolute;
-  left: 71%;
-  top: 56.6%;
+  left: 50%;
+  top: 85%;
+  transform: translateX(-50%) rotateY(0deg) rotate(45deg);
   width: 15px;
   height: 15px;
   background-color: hsl(217, 19%, 35%);
-  transform: rotateY(0deg) rotate(45deg);
   display: none;
 }
 
@@ -135,7 +140,7 @@ body {
   width: 22px;
 }
 
-.modal .h3 {
+.modal h3 {
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 12px;
