@@ -94,3 +94,68 @@ body {
   background-color: aliceblue;
 }
 
+.modal {
+  position: absolute;
+  background-color: hsl(217, 19%, 35%);
+  color: white;
+  left: 61.5%;
+  top: 48.8%;
+  padding: 20px;
+  display: flex;
+  width: 250px;
+  border-radius: 10px;
+  display: none;
+}
+
+.modal-triangle {
+  position: absolute;
+  left: 71%;
+  top: 56.6%;
+  width: 15px;
+  height: 15px;
+  background-color: hsl(217, 19%, 35%);
+  transform: rotateY(0deg) rotate(45deg);
+  display: none;
+}
+
+.active{
+  display: inline-flex;
+}
+
+.modal .social-medias {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  transition: width 0.5s ease-in-out;
+}
+
+.social-medias img:hover {
+  cursor: pointer;
+  width: 22px;
+}
+
+.modal .h3 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 12px;
+  color: hsl(212, 23%, 69%);
+}
+
+
+@media(max-width:770px) {
+  body{
+    background-color: red;
+  }
+
+  .modal{
+    left: 71.5%;
+    width: 220px;
+  }
+
+  .modal-triangle{
+    top: 58%;
+    left: 86.3%;
+  }
+  
+}
