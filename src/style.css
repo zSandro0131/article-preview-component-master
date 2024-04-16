@@ -146,21 +146,3 @@ body {
   font-size: 12px;
   color: hsl(212, 23%, 69%);
 }
-
-
-@media(max-width:770px) {
-  body{
-    background-color: red;
-  }
-
-  .modal{
-    left: 71.5%;
-    width: 220px;
-  }
-
-  .modal-triangle{
-    top: 58%;
-    left: 86.3%;
-  }
-  
-}
